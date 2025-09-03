@@ -1,0 +1,70 @@
+# =========================
+# Python (RAGService / backend)
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+.eggs/
+dist/
+build/
+tmp_uploads/
+uploads/
+.env
+.venv/
+venv/
+ENV/
+env/
+*.sqlite3
+
+# PyCharm / VSCode
+.idea/
+.vscode/
+*.code-workspace
+
+# Logs
+*.log
+*.out
+*.err
+
+# Byte-compiled
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+
+# =========================
+# Node.js (frontend / backend if Node-based)
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Next.js / React
+.next/
+out/
+build/
+.cache/
+coverage/
+*.tsbuildinfo
+
+# =========================
+# OS / misc
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# Custom project paths
+# =========================
+tmp_uploads/
+RAGService/.env.example

@@ -1,0 +1,44 @@
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+*.o
+*.a
+
+# Test binary, built with `go test -c`
+*.test
+
+# Compiled Go packages
+*.exe
+*.test
+*.prof
+
+# Go module cache
+# This is typically located in your user's Go module cache ($GOPATH/pkg/mod)
+# but can be generated in the project directory if `GO111MODULE=off` or if
+# using `go mod vendor`
+vendor/
+
+# Environment variables
+.env
+.env.*
+
+# Local IDE/editor files
+.idea/
+.vscode/
+*.swp
+*~
+.DS_Store
+
+# Logs
+*.log
+
+# Build output
+build/
+dist/
+
+# Temporary files
+tmp/
+
+uploads/

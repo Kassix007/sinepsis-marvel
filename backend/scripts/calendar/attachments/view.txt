@@ -1,0 +1,5 @@
+Go in browser at:
+
+http://localhost:8080/uploads/mission_attachments/dae83f1e-6c95-484e-b04e-901c9c1db688.png
+
+Replace url accordingly

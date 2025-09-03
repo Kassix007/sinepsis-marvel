@@ -1,0 +1,17 @@
+BEGIN;
+
+ALTER TABLE spells
+	ADD COLUMN IF NOT EXISTS origin TEXT,
+	ADD COLUMN IF NOT EXISTS origin TEXT,
+	ADD COLUMN IF NOT EXISTS power_class TEXT,
+
+	-- Security / access control
+	ADD COLUMN IF NOT EXISTS access_level SMALLINT DEFAULT 0,
+	ADD COLUMN IF NOT EXISTS restricted_reason TEXT,
+	ADD COLUMN IF NOT EXISTS alert_triggered_at TIMESTAMPTZ,
+
+	-- Timestamps
+	ADD COLUMN IF NOT EXISTS created_at TIMESTAMPTZ DEFAULT now(),
+	ADD COLUMN IF NOT EXISTS updated_at TIMESTAMPTZ DEFAULT now();
+
+COMMIT;

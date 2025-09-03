@@ -1,0 +1,6 @@
+BEGIN;
+
+ALTER TABLE user_game_stats
+DROP COLUMN IF EXISTS user_id;
+
+COMMIT;

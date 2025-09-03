@@ -1,0 +1,16 @@
+BEGIN;
+
+ALTER TABLE spells
+  DROP COLUMN IF EXISTS embedding,
+  DROP COLUMN IF EXISTS outlinks,
+  DROP COLUMN IF EXISTS sections,
+  DROP COLUMN IF EXISTS infobox,
+  DROP COLUMN IF EXISTS aliases,
+  DROP COLUMN IF EXISTS first_appearance,
+  DROP COLUMN IF EXISTS realities,
+  DROP COLUMN IF EXISTS categories,
+  DROP COLUMN IF EXISTS image_url,
+  DROP COLUMN IF EXISTS last_rev_ts,
+  DROP COLUMN IF EXISTS page_rev_id;
+
+COMMIT;
